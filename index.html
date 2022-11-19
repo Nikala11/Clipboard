@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard</title>
+    <!-- Connect with .css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <h1>Copy in Clipboard</h1>
+    
+    <!-- Text to be copied -->
+    <textarea id="to-copy" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo quod repellat modi dolor. Consequatur, ipsa nobis! Reiciendis aliquid expedita dolore nesciunt hic assumenda distinctio optio ad ut, possimus pariatur.</textarea>
+
+    <!-- Button -->
+    <button id="copy" type="button">Copy text
+        <span class="copiedtext" aria-hidden="true">Copied!</span>
+    </button>
+
+    <!-- Paste text here -->
+    <textarea id="cleared" spellcheck="false" placeholder="Paste the copied text here."></textarea>
+    
+    <!-- Connect with .js -->
+    <script src="script.js"></script>
+</body>
+</html>
